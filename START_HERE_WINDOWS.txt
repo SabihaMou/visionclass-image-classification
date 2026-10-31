@@ -1,0 +1,17 @@
+VISIONCLASS — START HERE (WINDOWS)
+
+1. Extract the ZIP.
+2. Open the extracted project folder in VS Code. Make sure app.py is visible on the left.
+3. Open Terminal > New Terminal.
+4. Type: python --version
+5. Type: python -m pip install -r requirements.txt
+6. Type: python -m streamlit run app.py
+7. Open http://localhost:8501 if your browser does not open automatically.
+8. Upload a photo and click Classify image.
+
+FIRST RUN: An internet connection is needed to download the pretrained model.
+
+TO TEST: python -m unittest discover -s tests -v
+TO STOP: Press Ctrl+C in the terminal.
+
+For GitHub, upload the source folder contents, not the ZIP itself. After running the app, take real screenshots and add them to screenshots/.
